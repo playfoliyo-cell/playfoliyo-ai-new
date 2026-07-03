@@ -1,0 +1,6 @@
+{
+  "name": "PlayFoliyo",
+  "description": "The premier professional sports profile, discovery, and recruiting network built for Indian athletes, coaches, academies, scouts, and sponsors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

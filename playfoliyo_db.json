@@ -1,0 +1,1460 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "name": "PlayFoliyo Admin",
+      "email": "admin@playfoliyo.com",
+      "password": "adminpassword",
+      "role": "admin",
+      "is_verified": true,
+      "verification_status": "approved",
+      "created_at": "2026-07-02T23:05:15.785Z"
+    },
+    {
+      "id": "u-athlete1",
+      "name": "Aarav 'The Storm' Sharma",
+      "email": "marcus@athlete.com",
+      "password": "password",
+      "role": "athlete",
+      "is_verified": true,
+      "verification_status": "approved",
+      "created_at": "2026-07-02T23:05:15.786Z"
+    },
+    {
+      "id": "u-coach1",
+      "name": "Coach Devendra Singh",
+      "email": "jurgen@coach.com",
+      "password": "password",
+      "role": "coach",
+      "is_verified": true,
+      "verification_status": "approved",
+      "created_at": "2026-07-02T23:05:15.786Z"
+    },
+    {
+      "id": "u-club1",
+      "name": "Tata Football Academy",
+      "email": "contact@redstar.com",
+      "password": "password",
+      "role": "academy",
+      "is_verified": true,
+      "verification_status": "approved",
+      "created_at": "2026-07-02T23:05:15.786Z"
+    },
+    {
+      "id": "u-scout1",
+      "name": "Anjali Sharma",
+      "email": "sarah@scout.com",
+      "password": "password",
+      "role": "scout",
+      "is_verified": true,
+      "verification_status": "approved",
+      "created_at": "2026-07-02T23:05:15.786Z"
+    },
+    {
+      "id": "u-sponsor1",
+      "name": "Nivia Sports India",
+      "email": "sponsorship@apex.com",
+      "password": "password",
+      "role": "sponsor",
+      "is_verified": true,
+      "verification_status": "approved",
+      "created_at": "2026-07-02T23:05:15.786Z"
+    },
+    {
+      "id": "u-1783033917761",
+      "name": "Kartik Sharma",
+      "email": "sharmakartik809@gmail.com",
+      "password": "Kasa@0302",
+      "role": "athlete",
+      "is_verified": true,
+      "verification_status": "approved",
+      "created_at": "2026-07-02T23:11:57.761Z"
+    }
+  ],
+  "profiles": [
+    {
+      "user_id": "u-athlete1",
+      "profile_pic": "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=200",
+      "cover_pic": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=1000",
+      "sport": "Football (Soccer)",
+      "position": "Striker / Winger",
+      "age": "19",
+      "gender": "Male",
+      "location": "Mumbai, Maharashtra, India",
+      "bio": "Ambitious 19-year-old goal scorer with electric pace, seeking professional trials in the Indian Super League (ISL) or national academy contracts. Represented Maharashtra State in national school games and tournaments.",
+      "current_team": "Mumbai Tigers Under-19",
+      "previous_teams": "Maharashtra State Youth, Pune Sports Club",
+      "height": "182 cm",
+      "weight": "74 kg",
+      "dominant_foot": "Right",
+      "experience": "7 years competitive youth",
+      "rankings": "Top Scorer of MDFA Elite Youth Division (28 goals in 22 games)",
+      "achievements": "🏆 Subroto Cup Golden Boot 2025\n🥇 Reliance Foundation Youth League Player of the Season 2024\n⚡ Elite 100m sprint timing: 10.95s",
+      "followers": [
+        "u-coach1",
+        "u-scout1"
+      ],
+      "following": [
+        "u-coach1",
+        "u-club1"
+      ]
+    },
+    {
+      "user_id": "u-coach1",
+      "profile_pic": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
+      "cover_pic": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&q=80&w=1000",
+      "sport": "Football (Soccer)",
+      "position": "Head Coach / Technical Director",
+      "age": "45",
+      "gender": "Male",
+      "location": "Kolkata, West Bengal, India",
+      "bio": "AIFF Pro Licensed Coach specializing in youth development, high-intensity pressing tactics, and developmental pathway strategies for elite Indian talents.",
+      "coaching_level": "Professional / Academy Elite",
+      "certifications": "AIFF Pro Licence, AFC 'A' Diploma, Sports Science & Conditioning Degree",
+      "experience": "15+ years (Mohun Bagan Academy, East Bengal FC Youth, Tata Football Academy)",
+      "achievements": "🏆 Developed 12 players currently representing the Indian National Team and key ISL clubs.\n🥇 I-League Academy Champions (3 seasons).",
+      "followers": [
+        "u-athlete1"
+      ],
+      "following": [
+        "u-athlete1",
+        "u-club1"
+      ]
+    },
+    {
+      "user_id": "u-club1",
+      "profile_pic": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=200",
+      "cover_pic": "https://images.unsplash.com/photo-1540747737956-378724044592?auto=format&fit=crop&q=80&w=1000",
+      "sport": "Multi-Sport Academy",
+      "position": "Club Operations",
+      "age": "12",
+      "gender": "Mixed",
+      "location": "Jamshedpur, Jharkhand, India",
+      "bio": "Premier Indian athletic facility and development center focused on nurturing professional prospects in Football, Basketball, Athletics, and Kabaddi.",
+      "facilities": "3 Full-sized FIFA-grade pitches, modern indoor basketball arena, high-performance strength gym, scientific recovery wing.",
+      "sports_offered": "Football, Basketball, Kabaddi, Track & Field, Strength & Conditioning",
+      "achievements": "🏆 Ranked #1 Elite Youth Academy in East India.\n🇮🇳 6 India National Team Youth graduates.",
+      "followers": [
+        "u-athlete1",
+        "u-coach1"
+      ],
+      "following": []
+    },
+    {
+      "user_id": "u-scout1",
+      "profile_pic": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200",
+      "cover_pic": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=1000",
+      "sport": "Football, Kabaddi & Athletics",
+      "position": "Senior Talent Scout",
+      "age": "36",
+      "gender": "Female",
+      "location": "New Delhi, India",
+      "bio": "Active scout identifying young talent for professional ISL & I-League clubs across India. Focused on tactical intelligence, acceleration, and mental toughness.",
+      "organization": "Bharat Talent Scout Agency & Reliance Foundation Network",
+      "region": "Pan-India & South Asia",
+      "experience": "10 years professional scouting in domestic leagues",
+      "followers": [
+        "u-athlete1"
+      ],
+      "following": [
+        "u-athlete1"
+      ]
+    },
+    {
+      "user_id": "u-sponsor1",
+      "profile_pic": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=200",
+      "cover_pic": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000",
+      "sport": "All Sports",
+      "position": "Brand Manager",
+      "age": "5",
+      "gender": "Corporate",
+      "location": "Jalandhar, Punjab, India",
+      "bio": "Leading Indian sports goods and performance wear brand. We sponsor emerging elite Indian athletes, local academies, and grassroots youth championships.",
+      "sponsorship_areas": "Grassroots sponsorships, Equipment partnerships, Tournament branding, Academy funding",
+      "budget_range": "₹50,000 - ₹5,00,000 per athlete/event",
+      "contact_info": "sponsorships@niviasports.in",
+      "followers": [
+        "u-athlete1"
+      ],
+      "following": []
+    },
+    {
+      "user_id": "u-1783033917761",
+      "profile_pic": "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=200",
+      "cover_pic": "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&q=80&w=1200",
+      "sport": "Football (Soccer)",
+      "position": "Central Midfielder (CM)",
+      "age": "21",
+      "gender": "Male",
+      "location": "Nagpur, Maharashtra, India",
+      "bio": "Passionate footballer with strong technical skills, vision and leadership on the field. Always looking to learn, improve and contribute to the team's success.",
+      "current_team": "Nagpur United FC",
+      "previous_teams": "Nagpur District Youth, Maharashtra State Division",
+      "height": "175 cm",
+      "weight": "68 kg",
+      "dominant_foot": "Right",
+      "experience": "5 years competitive youth",
+      "rankings": "AITA Rank #42",
+      "achievements": "🏆 Best Midfielder - Nagpur District League 2024\n🥈 Champion - Vidarbha Youth Cup 2023\n🥇 Player of the Match (3x) - Various Matches",
+      "sport_metrics": {
+        "matches_played": "18",
+        "goals": "6",
+        "assists": "7",
+        "minutes_played": "1324",
+        "pass_accuracy": "86",
+        "shots_on_target": "23",
+        "technical_skills": "85",
+        "tactical_awareness": "80",
+        "passing": "87",
+        "dribbling": "82",
+        "stamina": "88",
+        "shooting": "78",
+        "leadership": "84"
+      },
+      "followers": [],
+      "following": []
+    }
+  ],
+  "posts": [
+    {
+      "id": "p-1",
+      "user_id": "u-athlete1",
+      "author_name": "Aarav 'The Storm' Sharma",
+      "author_role": "athlete",
+      "author_avatar": "https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&q=80&w=200",
+      "content": "🔥 Hard work pays off! Thrilled to share my match highlights from the weekend's Subroto Cup National Finals. Ended the tournament with a hat-trick and the Golden Boot trophy! Ready for the next challenge. Scouts, check my career graph in my bio! ⚽⚡",
+      "media_url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "media_type": "video",
+      "category": "achievement",
+      "likes": [
+        "u-coach1",
+        "u-scout1"
+      ],
+      "comments": [
+        {
+          "id": "c-1",
+          "user_id": "u-coach1",
+          "user_name": "Coach Devendra Singh",
+          "user_avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
+          "text": "Top performance, Aarav! Your positioning on the second goal was tactical masterclass. Keep pushing!",
+          "created_at": "2026-07-02T23:05:15.786Z"
+        }
+      ],
+      "created_at": "2026-07-02T18:05:15.786Z"
+    },
+    {
+      "id": "p-2",
+      "user_id": "u-coach1",
+      "author_name": "Coach Devendra Singh",
+      "author_role": "coach",
+      "author_avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=200",
+      "content": "Excellent tactical session today at Tata Football Academy. We worked on transition speed, passing angles, and compact low-blocks. Talent is important, but tactical discipline wins championships.",
+      "media_url": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=600",
+      "media_type": "image",
+      "category": "general",
+      "likes": [
+        "u-athlete1"
+      ],
+      "comments": [],
+      "created_at": "2026-07-01T23:05:15.786Z"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "o-1",
+      "title": "Under-21 Professional Trial - Tata Football Academy",
+      "organization": "Tata Football Academy",
+      "org_id": "u-club1",
+      "org_avatar": "https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&q=80&w=200",
+      "type": "trial",
+      "sport": "Football (Soccer)",
+      "location": "Jamshedpur, Jharkhand",
+      "description": "We are hosting an exclusive invitation-only scouted trial for ambitious young strikers and midfielders aged 18-21. Pro clubs from the Indian Super League (ISL) and I-League will have scouts in attendance.",
+      "requirements": "Experience playing in state leagues, Subroto Cup, or AIFF Youth Leagues. Video highlight package and sport CV must be uploaded on PlayFoliyo.",
+      "budget": "Full accommodation and travel allowance during the trial",
+      "applications": [
+        "u-athlete1"
+      ],
+      "created_at": "2026-07-02T23:05:15.786Z"
+    },
+    {
+      "id": "o-2",
+      "title": "Bharat Emerging Athlete Ambassador Program",
+      "organization": "Nivia Sports India",
+      "org_id": "u-sponsor1",
+      "org_avatar": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=200",
+      "type": "sponsorship",
+      "sport": "All Sports",
+      "location": "India / Remote",
+      "description": "Nivia Sports is looking for 5 breakthrough, high-achieving athletes across Olympic and domestic sports to become national brand ambassadors. Recipients will get premium gear supply, training sponsorships, and travel grants for national games.",
+      "requirements": "Active PlayFoliyo profile, verification badge requested or approved, proven national/state tournament records.",
+      "budget": "₹2,00,000 yearly sponsorship contract + premium gear",
+      "applications": [],
+      "created_at": "2026-07-02T23:05:15.786Z"
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "t-1",
+      "name": "All-India Youth Champions Cup 2026",
+      "sport": "Football (Soccer)",
+      "location": "New Delhi, India",
+      "status": "upcoming",
+      "dates": "Aug 15 - Aug 22, 2026",
+      "description": "The most prestigious youth club academy tournament in India. Over 32 elite academies competing under professional ISL/I-League scout scrutiny.",
+      "registrations": [
+        "u-athlete1"
+      ],
+      "created_at": "2026-07-02T23:05:15.786Z"
+    },
+    {
+      "id": "t-2",
+      "name": "National Pro Showcase Combine 2026",
+      "sport": "Multi-Sport Athletics",
+      "location": "Patiala, Punjab",
+      "status": "ongoing",
+      "dates": "July 1 - July 5, 2026",
+      "description": "Ongoing national professional athletic combine. Testing sprint speed, vertical leap, endurance, and sport-specific techniques at Netaji Subhas National Institute of Sports.",
+      "results": "Combine leaderboard updated daily in our newsroom.",
+      "registrations": [],
+      "created_at": "2026-07-02T23:05:15.786Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-1",
+      "sender_id": "u-scout1",
+      "receiver_id": "u-athlete1",
+      "text": "Hi Aarav, watched your highlights from the Subroto Cup National Final. Very impressed with your acceleration off the ball. Are you under contract with any professional club currently?",
+      "created_at": "2026-07-02T21:05:15.786Z",
+      "read": true
+    },
+    {
+      "id": "m-2",
+      "sender_id": "u-athlete1",
+      "receiver_id": "u-scout1",
+      "text": "Hi Anjali, thank you! No, I am currently a free agent and looking for trials or professional academy pathways.",
+      "created_at": "2026-07-02T21:17:15.786Z",
+      "read": true
+    },
+    {
+      "id": "m-3",
+      "sender_id": "u-scout1",
+      "receiver_id": "u-athlete1",
+      "text": "Excellent. I have shared your details with our Indian scouting network. Keep your PlayFoliyo CV up to date. I will reach out about potential trials soon.",
+      "created_at": "2026-07-02T21:35:15.786Z",
+      "read": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1",
+      "user_id": "u-athlete1",
+      "title": "New Follower",
+      "description": "Anjali Sharma (Senior Scout) has started following your career graph.",
+      "type": "follower",
+      "read": false,
+      "created_at": "2026-07-02T22:05:15.786Z"
+    },
+    {
+      "id": "n-2",
+      "user_id": "u-athlete1",
+      "title": "Profile View",
+      "description": "Your profile was viewed by Technical Director Coach Devendra Singh.",
+      "type": "profile_view",
+      "read": false,
+      "created_at": "2026-07-02T20:05:15.786Z"
+    }
+  ],
+  "verifications": [
+    {
+      "id": "v-1",
+      "user_id": "u-athlete1",
+      "user_name": "Aarav 'The Storm' Sharma",
+      "user_role": "athlete",
+      "identity_proof": "Aadhaar_Card_Aarav_Sharma.pdf",
+      "sports_certificates": "SubrotoCup_GoldenBoot_Certificate.pdf",
+      "federation_records": "AIFF_Registration_Card_388902.pdf",
+      "status": "approved",
+      "created_at": "2026-07-02T23:05:15.786Z"
+    }
+  ],
+  "sport_metric_templates": [
+    {
+      "id": "smt-cricket",
+      "sport": "Cricket",
+      "fields": [
+        {
+          "id": "smf-c1",
+          "name": "Batting Average",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-c2",
+          "name": "Batting Strike Rate",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-c3",
+          "name": "Wickets Taken",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-c4",
+          "name": "Bowling Economy Rate",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-c5",
+          "name": "Matches Played",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-kabaddi",
+      "sport": "Kabaddi",
+      "fields": [
+        {
+          "id": "smf-k1",
+          "name": "Raid Points",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-k2",
+          "name": "Tackle Points",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-k3",
+          "name": "Super Raids",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-k4",
+          "name": "Super Tackles",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-k5",
+          "name": "Successful Raids %",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-hockey",
+      "sport": "Field Hockey",
+      "fields": [
+        {
+          "id": "smf-h1",
+          "name": "Goals Scored",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-h2",
+          "name": "Assists Recorded",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-h3",
+          "name": "Penalty Corner Conversion Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-h4",
+          "name": "Interceptions Per Game",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-badminton",
+      "sport": "Badminton",
+      "fields": [
+        {
+          "id": "smf-bad1",
+          "name": "Smash Speed",
+          "type": "number",
+          "unit": "km/h",
+          "required": false
+        },
+        {
+          "id": "smf-bad2",
+          "name": "Win-Loss Record",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-bad3",
+          "name": "National / State Rank",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-bad4",
+          "name": "Tournament Titles",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-wrestling",
+      "sport": "Wrestling",
+      "fields": [
+        {
+          "id": "smf-w1",
+          "name": "Weight Category",
+          "type": "text",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-w2",
+          "name": "Takedowns Per Match",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-w3",
+          "name": "Pins / Falls Count",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-w4",
+          "name": "Defensive Escapes Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-football",
+      "sport": "Football (Soccer)",
+      "fields": [
+        {
+          "id": "smf-f1",
+          "name": "Goals Scored",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-f2",
+          "name": "Assists Recorded",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-f3",
+          "name": "Passing Accuracy",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-f4",
+          "name": "Sprint Speed (100m)",
+          "type": "text",
+          "unit": "seconds",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-athletics",
+      "sport": "Athletics (Track & Field)",
+      "fields": [
+        {
+          "id": "smf-a1",
+          "name": "Primary Event",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-a2",
+          "name": "Personal Best Time/Distance",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-a3",
+          "name": "Season Best",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-a4",
+          "name": "National Ranking",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-shooting",
+      "sport": "Shooting",
+      "fields": [
+        {
+          "id": "smf-s1",
+          "name": "Event Category",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-s2",
+          "name": "Average Score",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-s3",
+          "name": "Inner Tens Count",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-s4",
+          "name": "Finals Conversion Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-boxing",
+      "sport": "Boxing",
+      "fields": [
+        {
+          "id": "smf-box1",
+          "name": "Weight Division",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-box2",
+          "name": "Win-Loss-Draw Record",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-box3",
+          "name": "Punch Accuracy",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-box4",
+          "name": "KO/TKO Wins Count",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-archery",
+      "sport": "Archery",
+      "fields": [
+        {
+          "id": "smf-ar1",
+          "name": "Event Type",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-ar2",
+          "name": "Average Arrow Score",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-ar3",
+          "name": "10s & Xs Count",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-ar4",
+          "name": "Match Play Win Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-weightlifting",
+      "sport": "Weightlifting",
+      "fields": [
+        {
+          "id": "smf-wl1",
+          "name": "Body Weight Category",
+          "type": "text",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-wl2",
+          "name": "Snatch Personal Best",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-wl3",
+          "name": "Clean & Jerk Personal Best",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-wl4",
+          "name": "Total Lifted",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-tabletennis",
+      "sport": "Table Tennis",
+      "fields": [
+        {
+          "id": "smf-tt1",
+          "name": "State / National Rank",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-tt2",
+          "name": "Spin Serve Success",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-tt3",
+          "name": "Backhand Winner Count",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-tt4",
+          "name": "Rally Win Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-tennis",
+      "sport": "Tennis",
+      "fields": [
+        {
+          "id": "smf-ten1",
+          "name": "First Serve Percentage",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-ten2",
+          "name": "Aces Per Match",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-ten3",
+          "name": "Break Points Saved Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-ten4",
+          "name": "Unforced Errors Per Set",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-squash",
+      "sport": "Squash",
+      "fields": [
+        {
+          "id": "smf-sq1",
+          "name": "Length Accuracy Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-sq2",
+          "name": "Nick Shots Count",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-sq3",
+          "name": "Game Win Percentage",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-sq4",
+          "name": "Matches Won",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-chess",
+      "sport": "Chess",
+      "fields": [
+        {
+          "id": "smf-ch1",
+          "name": "FIDE Rating",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-ch2",
+          "name": "Title Preference",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-ch3",
+          "name": "Primary Opening",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-ch4",
+          "name": "Puzzle Rating",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-khokho",
+      "sport": "Kho Kho",
+      "fields": [
+        {
+          "id": "smf-kk1",
+          "name": "Chaser Points",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-kk2",
+          "name": "Defender Running Time",
+          "type": "text",
+          "unit": "mins",
+          "required": false
+        },
+        {
+          "id": "smf-kk3",
+          "name": "Active Taps Count",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-kk4",
+          "name": "Pole Dive Success Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-billiards",
+      "sport": "Billiards / Snooker",
+      "fields": [
+        {
+          "id": "smf-bil1",
+          "name": "Highest Break",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-bil2",
+          "name": "Potting Success Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-bil3",
+          "name": "Safety Play Success Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-bil4",
+          "name": "Matches Won",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-basketball",
+      "sport": "Basketball",
+      "fields": [
+        {
+          "id": "smf-b1",
+          "name": "Points Per Game (PPG)",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-b2",
+          "name": "3-Point Shot Percentage",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-b3",
+          "name": "Rebounds Per Game",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-b4",
+          "name": "Assists Per Game",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-volleyball",
+      "sport": "Volleyball",
+      "fields": [
+        {
+          "id": "smf-v1",
+          "name": "Vertical Jump",
+          "type": "number",
+          "unit": "cm",
+          "required": false
+        },
+        {
+          "id": "smf-v2",
+          "name": "Spike Touch",
+          "type": "number",
+          "unit": "cm",
+          "required": false
+        },
+        {
+          "id": "smf-v3",
+          "name": "Block Touch",
+          "type": "number",
+          "unit": "cm",
+          "required": false
+        },
+        {
+          "id": "smf-v4",
+          "name": "Serve Aces",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-golf",
+      "sport": "Golf",
+      "fields": [
+        {
+          "id": "smf-g1",
+          "name": "Handicap Index",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-g2",
+          "name": "Driving Distance",
+          "type": "number",
+          "unit": "yards",
+          "required": false
+        },
+        {
+          "id": "smf-g3",
+          "name": "Greens in Regulation Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-g4",
+          "name": "Average Putts Per Round",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-swimming",
+      "sport": "Swimming",
+      "fields": [
+        {
+          "id": "smf-sw1",
+          "name": "Preferred Style",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-sw2",
+          "name": "50m Personal Best",
+          "type": "text",
+          "unit": "seconds",
+          "required": false
+        },
+        {
+          "id": "smf-sw3",
+          "name": "100m Personal Best",
+          "type": "text",
+          "unit": "seconds",
+          "required": false
+        },
+        {
+          "id": "smf-sw4",
+          "name": "Medal Tally",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-gymnastics",
+      "sport": "Gymnastics",
+      "fields": [
+        {
+          "id": "smf-gym1",
+          "name": "Core Discipline",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-gym2",
+          "name": "Difficulty Score (D)",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-gym3",
+          "name": "Execution Score (E)",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-gym4",
+          "name": "Combined Total Score",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-judo",
+      "sport": "Judo",
+      "fields": [
+        {
+          "id": "smf-jd1",
+          "name": "Weight Class",
+          "type": "text",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-jd2",
+          "name": "Ippon Wins",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-jd3",
+          "name": "Waza-ari Scores",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-jd4",
+          "name": "Penalty (Shido) Average",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-karate",
+      "sport": "Karate",
+      "fields": [
+        {
+          "id": "smf-kar1",
+          "name": "Category (Kata/Kumite)",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-kar2",
+          "name": "Weight Division",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-kar3",
+          "name": "Ippon Strikes Count",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-kar4",
+          "name": "Senshu Success Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-taekwondo",
+      "sport": "Taekwondo",
+      "fields": [
+        {
+          "id": "smf-tkd1",
+          "name": "Weight Division",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-tkd2",
+          "name": "Head Kick Accuracy Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-tkd3",
+          "name": "Gam-jeom Average",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-tkd4",
+          "name": "Successful Spin Kicks",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-rowing",
+      "sport": "Rowing",
+      "fields": [
+        {
+          "id": "smf-row1",
+          "name": "2000m Erg Time",
+          "type": "text",
+          "unit": "mins",
+          "required": false
+        },
+        {
+          "id": "smf-row2",
+          "name": "Stroke Rate",
+          "type": "number",
+          "unit": "spm",
+          "required": false
+        },
+        {
+          "id": "smf-row3",
+          "name": "Boat Category",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-row4",
+          "name": "Clean Pull Force",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-cycling",
+      "sport": "Cycling",
+      "fields": [
+        {
+          "id": "smf-cy1",
+          "name": "FTP Rating",
+          "type": "number",
+          "unit": "Watts",
+          "required": false
+        },
+        {
+          "id": "smf-cy2",
+          "name": "Max Sprint Power",
+          "type": "number",
+          "unit": "Watts",
+          "required": false
+        },
+        {
+          "id": "smf-cy3",
+          "name": "20km Time Trial PB",
+          "type": "text",
+          "unit": "mins",
+          "required": false
+        },
+        {
+          "id": "smf-cy4",
+          "name": "Favorite Event",
+          "type": "text",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-wushu",
+      "sport": "Wushu",
+      "fields": [
+        {
+          "id": "smf-wsh1",
+          "name": "Discipline (Sanda/Taolu)",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-wsh2",
+          "name": "Kick Takedowns",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-wsh3",
+          "name": "Form Artistry Rating",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-wsh4",
+          "name": "Punch Accuracy",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-mallakhamb",
+      "sport": "Mallakhamb",
+      "fields": [
+        {
+          "id": "smf-mal1",
+          "name": "Category (Pole/Rope/Hanging)",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-mal2",
+          "name": "Hold Stability Duration",
+          "type": "number",
+          "unit": "seconds",
+          "required": false
+        },
+        {
+          "id": "smf-mal3",
+          "name": "Flexibility Score",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-mal4",
+          "name": "Dismount Cleanliness Rating",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-powerlifting",
+      "sport": "Powerlifting",
+      "fields": [
+        {
+          "id": "smf-pl1",
+          "name": "Squat Personal Best",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-pl2",
+          "name": "Bench Press Personal Best",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-pl3",
+          "name": "Deadlift Personal Best",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-pl4",
+          "name": "Wilks / DOTS Score",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-handball",
+      "sport": "Handball",
+      "fields": [
+        {
+          "id": "smf-hb1",
+          "name": "Goals Per Match",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-hb2",
+          "name": "Defensive Blocks",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-hb3",
+          "name": "Goalkeeper Save Rate",
+          "type": "number",
+          "unit": "%",
+          "required": false
+        },
+        {
+          "id": "smf-hb4",
+          "name": "Fastbreak Goals",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-yoga",
+      "sport": "Yoga Sports",
+      "fields": [
+        {
+          "id": "smf-yg1",
+          "name": "Posture Hold Time",
+          "type": "number",
+          "unit": "seconds",
+          "required": false
+        },
+        {
+          "id": "smf-yg2",
+          "name": "Flexibility Rating (1-10)",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-yg3",
+          "name": "Artistic Flow Score",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-bodybuilding",
+      "sport": "Bodybuilding",
+      "fields": [
+        {
+          "id": "smf-bb1",
+          "name": "Weight Division",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-bb2",
+          "name": "Competition Weight",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-bb3",
+          "name": "Off-Season Weight",
+          "type": "number",
+          "unit": "kg",
+          "required": false
+        },
+        {
+          "id": "smf-bb4",
+          "name": "Titles Won",
+          "type": "number",
+          "required": false
+        }
+      ]
+    },
+    {
+      "id": "smt-motorsports",
+      "sport": "Motorsports",
+      "fields": [
+        {
+          "id": "smf-ms1",
+          "name": "Fastest Lap Time",
+          "type": "text",
+          "required": false
+        },
+        {
+          "id": "smf-ms2",
+          "name": "Podium Finishes",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-ms3",
+          "name": "Pole Positions",
+          "type": "number",
+          "required": false
+        },
+        {
+          "id": "smf-ms4",
+          "name": "Championship Points",
+          "type": "number",
+          "required": false
+        }
+      ]
+    }
+  ]
+}

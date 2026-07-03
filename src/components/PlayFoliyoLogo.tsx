@@ -1,0 +1,101 @@
+import React from "react";
+
+interface PlayFoliyoLogoProps {
+  size?: number | string;
+  showText?: boolean;
+  textSize?: string;
+  className?: string;
+  textClassName?: string;
+  textColor?: string;
+}
+
+export default function PlayFoliyoLogo({
+  size = 40,
+  showText = true,
+  textSize = "text-xl",
+  className = "",
+  textClassName = "",
+}: PlayFoliyoLogoProps) {
+  // Convert size to string representation
+  const containerSize = typeof size === "number" ? `${size}px` : size;
+
+  return (
+    <div className={`flex items-center space-x-2.5 select-none ${className}`}>
+      {/* Dynamic 3D Hexagon PF Logo Icon */}
+      <div 
+        className="relative shrink-0 flex items-center justify-center"
+        style={{ width: containerSize, height: containerSize }}
+      >
+        <svg
+          viewBox="0 0 100 100"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-full h-full drop-shadow-md"
+        >
+          {/* Main vertical hexagon background with #1D4ED8 blue color theme */}
+          <path
+            d="M50 4 L90 27.1 V72.9 L50 96 L10 72.9 V27.1 Z"
+            fill="url(#playfoliyo-hex-gradient)"
+          />
+          
+          {/* Right side 3D bevel shadow facet */}
+          <path
+            d="M50 4 L90 27.1 V72.9 L50 96 V50 Z"
+            fill="black"
+            opacity="0.1"
+          />
+
+          {/* Right side lower ribbon edge accent to create the folder style */}
+          <path
+            d="M90 27.1 L75 35.8 V64.2 L90 72.9 Z"
+            fill="black"
+            opacity="0.08"
+          />
+
+          {/* Inside Stylized White "P" and Ribbon details */}
+          {/* Main Stem & Loop of the "P" */}
+          <path
+            d="M34 27 H63 C71 27 76 31.5 76 38.5 C76 45.5 71 50 63 50 H46 V72 H34 V27ZM46 38.5 V41.5 H61 C63 41.5 64 40.5 64 38.5 C64 36.5 63 35.5 61 35.5 H46 V38.5Z"
+            fill="white"
+          />
+
+          {/* The folded loop layer shadow */}
+          <path
+            d="M46 50 L64 38.5 L64 50 Z"
+            fill="black"
+            opacity="0.15"
+          />
+
+          {/* Elegant folded lower ribbon leg forming the "F" crossbar/tail */}
+          <path
+            d="M46 50 H58 L76 60.5 V70.5 L58 60 H46 V72 C46 76 49 79 53 79 C57 79 60 76 60 72 V59 L76 68.5 V58.5 L60 49 Z"
+            fill="white"
+          />
+
+          {/* Soft shadow below the ribbon fold */}
+          <path
+            d="M46 59 L60 50 L60 59 Z"
+            fill="black"
+            opacity="0.18"
+          />
+
+          {/* Definitions for beautiful color styling */}
+          <defs>
+            <linearGradient id="playfoliyo-hex-gradient" x1="10" y1="4" x2="90" y2="96" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stopColor="#2563EB" />
+              <stop offset="100%" stopColor="#1D4ED8" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      {/* Styled Wordmark text matching exact brand style */}
+      {showText && (
+        <span className={`font-black tracking-wider font-sans ${textSize} ${textClassName} items-center`}>
+          <span className="text-slate-900 select-none">PLAY</span>
+          <span className="text-[#1D4ED8] select-none">FOLIYO</span>
+        </span>
+      )}
+    </div>
+  );
+}
